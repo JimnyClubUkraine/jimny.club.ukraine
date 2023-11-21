@@ -13,12 +13,6 @@ body {
     display: block;
     margin: 0 auto;
 }
-/*
-@media (max-width: 1500px) {
-    .logo img {
-        width: 75%;
-    }
-}*/
 
 /* Settings for social icons */
 
@@ -37,9 +31,3 @@ body {
 .social-icons i {
     font-size: 15vw;
 }
-/*
-@media (max-width: 1500px) {
-    .social-icons i {
-        font-size: 120px;
-    }
-}*/
