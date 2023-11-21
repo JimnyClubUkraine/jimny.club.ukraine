@@ -38,3 +38,9 @@ body {
 .social-icons i {
     font-size: 60px;
 }
+
+@media (max-width: 1500px) {
+    .social-icons i {
+        font-size: 120px;
+    }
+}
