@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Settings for logo */
+
+.logo img {
+    max-width: 100%;
+    width: 25%; /* Set the image to 25% of the parent's width (1/4) by default for desktop */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    /* Media query for screens with a maximum width of 767px (typical mobile screens) */
+    .logo img {
+        width: 50%; /* Set the image to 50% of the parent's width (1/2) for mobile */
+    }
+}
+
+/* Settings for social icons */
+
+.social-icons {
+    text-align: center;
+    margin: 0;
+}
+
+.social-icons a {
+    margin-right: 16px;
+    margin-left: 16px;
+    text-decoration: none;
+    color: #000000; /* Icon color */
+}
+
+.social-icons i {
+    font-size: 60px;
+}
