@@ -17,7 +17,7 @@ body {
 @media (max-width: 1500px) {
     /* Media query for screens with a maximum width of 767px (typical mobile screens) */
     .logo img {
-        width: 50%; /* Set the image to 50% of the parent's width (1/2) for mobile */
+        width: 75%; /* Set the image to 50% of the parent's width (1/2) for mobile */
     }
 }
 
@@ -36,11 +36,11 @@ body {
 }
 
 .social-icons i {
-    font-size: 60px;
+    font-size: 120px;
 }
-
+/*
 @media (max-width: 1500px) {
     .social-icons i {
         font-size: 120px;
     }
-}
+}*/
